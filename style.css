@@ -1,0 +1,152 @@
+body{
+    background-color: beige;
+    display: flex;
+    justify-content: center;
+}
+.main{
+    width: 500px;
+    height: 520px;
+    background-color: white;
+    border-radius: 15px;
+}
+h1{
+    margin-left: 30px;
+    margin-right: 150px;
+    padding-top: 5px;
+    font-size:large;
+}
+.head{
+    display: flex;
+}
+.head-in{
+    width: 60px;
+    height: 30px;
+    border-left: 1px solid red;
+    margin: 10px;
+    padding: 5px;
+}
+p{
+    font-size: small;
+    margin-right: 20px;
+    padding-top: 8px;
+}
+.in{
+    padding: 0;
+    margin: 0;
+}
+.img-in{
+    width: 10px;
+    height: 10px;
+    padding: 0;
+    margin: 0;
+}
+hr{
+    width: 90%;
+    margin-top: -5px;
+}
+.date{
+    display: flex;
+}
+.im-l,.im-r{
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    background-color: rgb(248,248,248);
+}
+.im-l{
+    margin-left: 25px;
+    margin-right: 115px;
+}
+.im-r{
+    margin-left: 100px;
+    
+}
+.date-p{
+    padding: 10px;
+    background-color: rgb(248, 248, 248);
+}
+.blue,.green{
+    width: 400px;
+    height: 150px;
+    background-color: rgb(243,247,255);
+    border-left: 5px solid rgb(4,94,227);
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.green{
+    background-color: rgb(243,249,247);
+    border-left: 5px solid rgb(4,133,104);
+}
+.ins{
+    display: flex;
+    margin-bottom: -30px;
+}
+.blue-ins{
+    margin-left: 10px;
+    margin-right: 30px;
+}
+.inl{
+    display: flex;
+    margin-top: -20px;
+}
+a{
+    color: black;
+    font-size: x-small;
+}
+.button{
+    display: flex;
+}
+.color{
+    height: 25px; 
+    width: 60px; 
+    background-color: rgb(34,115,232); 
+    color: white; 
+    border-style: none;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+.mid{
+    height: 25px;
+    width: 80px;
+    background-color: rgb(242,246,255);
+    color: blue;
+    border: 1px solid blue;
+    margin-right: 10px;
+}
+.last{
+    height: 25px; 
+    width: 60px;
+    color: blue;
+    background-color: rgb(242,246,255);
+    border: 1px solid blue;
+}
+.color-g{
+    height: 25px; 
+    width: 60px; 
+    background-color: rgb(34,148,125); 
+    color: white; 
+    border-style: none;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+.mid-g{
+    height: 25px;
+    width: 80px;
+    background-color: rgb(242,246,255);
+    color: green;
+    border: 1px solid green;
+    margin-right: 10px;
+}
+.last-g{
+    height: 25px; 
+    width: 60px;
+    background-color: rgb(242,246,255);
+    color: green;
+    border: 1px solid green;
+}
+.ac{
+    text-align: right; 
+    color: red; 
+    font-size: medium; 
+    margin-left: 350px;
+}
